@@ -1,4 +1,4 @@
-name: MacRDP
+name: Ubuntu
 on: 
   workflow_dispatch:
 jobs:
