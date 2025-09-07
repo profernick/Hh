@@ -1,0 +1,14 @@
+name: Ubuntu-22.04
+
+on: [push, workflow_dispatch]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-22.04
+
+    steps:
+    - name: Install sshx
+      run: curl -sSf https://sshx.io/get | sh
+    - name: Run sshx
+      run: sshx
